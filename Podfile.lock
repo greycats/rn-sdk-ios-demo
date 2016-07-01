@@ -1,0 +1,16 @@
+PODS:
+  - Xealth (0.0.1)
+
+DEPENDENCIES:
+  - Xealth (from `../rn-packager/Xealth.podspec`)
+
+EXTERNAL SOURCES:
+  Xealth:
+    :path: "../rn-packager/Xealth.podspec"
+
+SPEC CHECKSUMS:
+  Xealth: c97c4a3eb0d1811e2421c6030522defc110bdcd1
+
+PODFILE CHECKSUM: 94f141cd1b9a40549cb61caceaf1aebf69090485
+
+COCOAPODS: 1.0.0
