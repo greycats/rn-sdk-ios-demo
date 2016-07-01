@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D110901E5E43EEEB79DF34B4D060CF8DF0C6226C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FCBD4E54B4A3FEE6AE98A273E5CE4BC96EB745C0" : 0,
+    "D110901E5E43EEEB79DF34B4D060CF8DF0C6226C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B252380B-A62B-4A70-899D-010B6746747C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FCBD4E54B4A3FEE6AE98A273E5CE4BC96EB745C0" : "rn-packager\/",
+    "D110901E5E43EEEB79DF34B4D060CF8DF0C6226C" : "rn-sdk-ios-demo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/greycats\/rn-sdk-ios-demo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D110901E5E43EEEB79DF34B4D060CF8DF0C6226C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:greycats\/rn-packager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCBD4E54B4A3FEE6AE98A273E5CE4BC96EB745C0"
+    }
+  ]
+}
