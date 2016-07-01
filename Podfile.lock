@@ -1,22 +1,22 @@
 PODS:
-  - Xealth (0.0.1)
+  - Xealth (0.0.2)
 
 DEPENDENCIES:
-  - Xealth (from `https://github.com/greycats/rn-packager.git`, tag `0.0.1`)
+  - Xealth (from `https://github.com/greycats/rn-packager.git`, tag `0.0.2`)
 
 EXTERNAL SOURCES:
   Xealth:
     :git: https://github.com/greycats/rn-packager.git
-    :tag: 0.0.1
+    :tag: 0.0.2
 
 CHECKOUT OPTIONS:
   Xealth:
     :git: https://github.com/greycats/rn-packager.git
-    :tag: 0.0.1
+    :tag: 0.0.2
 
 SPEC CHECKSUMS:
-  Xealth: c97c4a3eb0d1811e2421c6030522defc110bdcd1
+  Xealth: ec40cdecf27c8bb60806916091d49916d5d9c7be
 
-PODFILE CHECKSUM: 93d7e0c45332406241a65d546e3426bea955924a
+PODFILE CHECKSUM: d7e03768e9d3b104f0aec0883cbf2caa3748b61a
 
 COCOAPODS: 1.0.0

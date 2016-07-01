@@ -1,14 +1,13 @@
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
+//
+//  AppDelegate.m
+//  Demo
+//
+//  Created by Rex Sheng on 6/29/16.
+//  Copyright © 2016 InteractiveLabs. All rights reserved.
+//
 
 #import "AppDelegate.h"
-#import <Xealth/DemoView.h>
+@import Xealth;
 
 @implementation AppDelegate
 
@@ -16,7 +15,7 @@
 {
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
-	rootViewController.view = [[DemoView alloc] init];
+	rootViewController.view = [[XealthView alloc] initWithProperties:nil];
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;
