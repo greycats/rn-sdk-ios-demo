@@ -1,22 +1,31 @@
 PODS:
-  - Xealth (0.0.2)
+  - AFWebViewController (1.2):
+    - ARChromeActivity (~> 1.0.4)
+    - TUSafariActivity (~> 1.0.4)
+  - ARChromeActivity (1.0.6)
+  - MBProgressHUD (0.9.2)
+  - SSKeychain (1.4.0)
+  - TUSafariActivity (1.0.4)
+  - XealthSDK (0.0.1):
+    - AFWebViewController
+    - MBProgressHUD
+    - SSKeychain
 
 DEPENDENCIES:
-  - Xealth (from `https://github.com/greycats/rn-packager.git`, tag `0.0.2`)
+  - XealthSDK (from `../../xealth-sdk`)
 
 EXTERNAL SOURCES:
-  Xealth:
-    :git: https://github.com/greycats/rn-packager.git
-    :tag: 0.0.2
-
-CHECKOUT OPTIONS:
-  Xealth:
-    :git: https://github.com/greycats/rn-packager.git
-    :tag: 0.0.2
+  XealthSDK:
+    :path: "../../xealth-sdk"
 
 SPEC CHECKSUMS:
-  Xealth: ec40cdecf27c8bb60806916091d49916d5d9c7be
+  AFWebViewController: 58d2679d4ad060b845da0d8e44f922c3ab28a44a
+  ARChromeActivity: 5dcf9b9f09323761f992aff3525cdd777f83609d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+  XealthSDK: 408d3b3a54a80d22ce08da48fbd7b2dc0f2a83e3
 
-PODFILE CHECKSUM: d7e03768e9d3b104f0aec0883cbf2caa3748b61a
+PODFILE CHECKSUM: b17443e4376b8ef284942bb7cf1a318f67a1b428
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1

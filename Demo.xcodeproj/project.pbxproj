@@ -11,7 +11,7 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		96E48129A2DF868A9883EA65 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C9ECFF79EB5020387C4719 /* Pods_Demo.framework */; };
+		3210183B1B9033738ADA0999 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39415E3711A2CF10209BD8F4 /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,16 +22,10 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Demo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Demo/main.m; sourceTree = "<group>"; };
-		36C9ECFF79EB5020387C4719 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E1A27E4620238C4AE53C402 /* Pods_Packager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Packager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39415E3711A2CF10209BD8F4 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6584C2FD473109E931D8BFF9 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		B9C2A7C392D8530579472556 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		CF760F471D23CD39004D77F7 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		CF760F481D23CDCB004D77F7 /* Packager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Packager.h; sourceTree = "<group>"; };
-		CF7610611D24BFF7004D77F7 /* React.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = React.framework; sourceTree = "<group>"; };
 		CF7610651D24C456004D77F7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		CF76106E1D24C50D004D77F7 /* Packager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Packager.h; sourceTree = "<group>"; };
-		CF7610701D24C50D004D77F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFE0D1F51D2620A7007FD665 /* Xealth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Xealth.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Demo-bigwctujrbfwbediruzwgthntjdt/Build/Products/Debug-iphonesimulator/Xealth/Xealth.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E48129A2DF868A9883EA65 /* Pods_Demo.framework in Frameworks */,
+				3210183B1B9033738ADA0999 /* Pods_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +68,7 @@
 			children = (
 				CFE0D1F51D2620A7007FD665 /* Xealth.framework */,
 				CF7610651D24C456004D77F7 /* AssetsLibrary.framework */,
-				CF7610611D24BFF7004D77F7 /* React.framework */,
-				3E1A27E4620238C4AE53C402 /* Pods_Packager.framework */,
-				36C9ECFF79EB5020387C4719 /* Pods_Demo.framework */,
+				39415E3711A2CF10209BD8F4 /* Pods_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				13B07FAE1A68108700A75B9A /* Demo */,
-				CF760EDB1D23B534004D77F7 /* Packager */,
-				CF76106D1D24C50D004D77F7 /* Packager */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				20613AFFCF174F9B8A820349 /* Pods */,
 				324B34D59B87464BCDEABF73 /* Frameworks */,
@@ -94,6 +84,7 @@
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
+			usesTabs = 0;
 		};
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
@@ -103,24 +94,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF760EDB1D23B534004D77F7 /* Packager */ = {
-			isa = PBXGroup;
-			children = (
-				CF760F471D23CD39004D77F7 /* module.modulemap */,
-				CF760F481D23CDCB004D77F7 /* Packager.h */,
-			);
-			path = Packager;
-			sourceTree = "<group>";
-		};
-		CF76106D1D24C50D004D77F7 /* Packager */ = {
-			isa = PBXGroup;
-			children = (
-				CF76106E1D24C50D004D77F7 /* Packager.h */,
-				CF7610701D24C50D004D77F7 /* Info.plist */,
-			);
-			path = Packager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,12 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				D53D98BF8A944769D6802FAE /* 📦 Check Pods Manifest.lock */,
+				D53D98BF8A944769D6802FAE /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				3B6DBEDFBD0824729ECD2B9B /* 📦 Embed Pods Frameworks */,
-				8EDF6823DE859E4477B7B67B /* 📦 Copy Pods Resources */,
+				3B6DBEDFBD0824729ECD2B9B /* [CP] Embed Pods Frameworks */,
+				8EDF6823DE859E4477B7B67B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,14 +160,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3B6DBEDFBD0824729ECD2B9B /* 📦 Embed Pods Frameworks */ = {
+		3B6DBEDFBD0824729ECD2B9B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,14 +175,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8EDF6823DE859E4477B7B67B /* 📦 Copy Pods Resources */ = {
+		8EDF6823DE859E4477B7B67B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,14 +190,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D53D98BF8A944769D6802FAE /* 📦 Check Pods Manifest.lock */ = {
+		D53D98BF8A944769D6802FAE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,15 +7,15 @@
 //
 
 #import "AppDelegate.h"
-@import Xealth;
+@import XealthSDK;
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-  UIViewController *rootViewController = [UIViewController new];
-	rootViewController.view = [[XealthView alloc] initWithProperties:nil];
+  XealthCardsViewController *rootViewController = [XealthCardsViewController new];
+	[rootViewController loginWithUserName:@"rex" password:@"abcd"];
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;

@@ -12,7 +12,7 @@
 2. put 
     
     ```objective-c
-    [[XealthView alloc] initWithProperties:...]
+    [[XealthView alloc] initWithProperties: ...]
     ```
     or
     
