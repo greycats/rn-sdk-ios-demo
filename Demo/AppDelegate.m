@@ -21,8 +21,8 @@
   XealthCardsViewController *rootViewController = [XealthCardsViewController new];
   rootViewController.delegate = self;
   UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-  nav.navigationBarHidden = YES;
   [rootViewController loginWithUserName:@"sundarteset" password:@"Test1234!!"];
+  rootViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStylePlain target:rootViewController action:@selector(logout)];
   self.window.rootViewController = nav;
   [self.window makeKeyAndVisible];
   return YES;

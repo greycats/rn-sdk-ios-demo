@@ -11,22 +11,18 @@ PODS:
 
 DEPENDENCIES:
   - AFWebViewController (from `https://bitbucket.org/xealthcommunity/xealth-afwebviewcontroller.git`)
-  - XealthSDK (from `https://bitbucket.org/xealthcommunity/xealth-sdk.git`, commit `9c176a73`)
+  - XealthSDK (from `../../xealth-sdk`)
 
 EXTERNAL SOURCES:
   AFWebViewController:
     :git: https://bitbucket.org/xealthcommunity/xealth-afwebviewcontroller.git
   XealthSDK:
-    :commit: 9c176a73
-    :git: https://bitbucket.org/xealthcommunity/xealth-sdk.git
+    :path: "../../xealth-sdk"
 
 CHECKOUT OPTIONS:
   AFWebViewController:
     :commit: 40d97d176a96f5486b9c2dd4d2a8dab486e7d31e
     :git: https://bitbucket.org/xealthcommunity/xealth-afwebviewcontroller.git
-  XealthSDK:
-    :commit: 9c176a73
-    :git: https://bitbucket.org/xealthcommunity/xealth-sdk.git
 
 SPEC CHECKSUMS:
   AFWebViewController: 58d2679d4ad060b845da0d8e44f922c3ab28a44a
@@ -35,6 +31,6 @@ SPEC CHECKSUMS:
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
   XealthSDK: 6d2d01bfdcaa61a08bf15e86437d66195a1895ac
 
-PODFILE CHECKSUM: cd7b3b8df308d7ce7869a53e2e32cf307ae0c99c
+PODFILE CHECKSUM: 4d326ba8def43937d25a5275e3a6facfb768a220
 
 COCOAPODS: 1.0.1
