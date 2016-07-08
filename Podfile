@@ -5,6 +5,6 @@ use_frameworks!
 target "Demo" do
   pod 'AFWebViewController', :git => 'https://bitbucket.org/xealthcommunity/xealth-afwebviewcontroller.git'
 
-  # pod 'XealthSDK', :path => '../../xealth-sdk'
-  pod 'XealthSDK', :git => 'https://bitbucket.org/xealthcommunity/xealth-sdk.git', :commit => '324c2a49'
+  pod 'XealthSDK', :path => '../../xealth-sdk'
+  # pod 'XealthSDK', :git => 'https://bitbucket.org/xealthcommunity/xealth-sdk.git', :commit => '387353ff'
 end
