@@ -1,12 +1,12 @@
 //
-//  AppDelegate.h
-//  Demo
+//  SDKAppDelegate.h
+//  swedish
 //
-//  Created by Rex Sheng on 6/29/16.
-//  Copyright © 2016 InteractiveLabs. All rights reserved.
+//  Created by Rex Sheng on 7/6/16.
+//  Copyright © 2016 xealth. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

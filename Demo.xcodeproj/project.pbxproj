@@ -12,6 +12,9 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3210183B1B9033738ADA0999 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39415E3711A2CF10209BD8F4 /* Pods_Demo.framework */; };
+		CF9FDA041D3605E4006D43B5 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF9FDA021D3605E4006D43B5 /* Roboto-Light.ttf */; };
+		CF9FDA051D3605E4006D43B5 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF9FDA031D3605E4006D43B5 /* Roboto-Regular.ttf */; };
+		CFB084131D35E61F00F856C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB084111D35E61F00F856C1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		6584C2FD473109E931D8BFF9 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		B9C2A7C392D8530579472556 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		CF7610651D24C456004D77F7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CF9FDA021D3605E4006D43B5 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "Pods/XealthSDK/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CF9FDA031D3605E4006D43B5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "Pods/XealthSDK/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CFB084121D35E61F00F856C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Demo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFE0D1F51D2620A7007FD665 /* Xealth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Xealth.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Demo-bigwctujrbfwbediruzwgthntjdt/Build/Products/Debug-iphonesimulator/Xealth/Xealth.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +55,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				CFB084111D35E61F00F856C1 /* Main.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = Demo;
@@ -76,6 +83,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CF9FDA021D3605E4006D43B5 /* Roboto-Light.ttf */,
+				CF9FDA031D3605E4006D43B5 /* Roboto-Regular.ttf */,
 				13B07FAE1A68108700A75B9A /* Demo */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				20613AFFCF174F9B8A820349 /* Pods */,
@@ -152,7 +161,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB084131D35E61F00F856C1 /* Main.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CF9FDA051D3605E4006D43B5 /* Roboto-Regular.ttf in Resources */,
+				CF9FDA041D3605E4006D43B5 /* Roboto-Light.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +239,14 @@
 			);
 			name = LaunchScreen.xib;
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		CFB084111D35E61F00F856C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB084121D35E61F00F856C1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
