@@ -6,5 +6,5 @@ target "Demo" do
   pod 'AFWebViewController', :git => 'https://bitbucket.org/xealthcommunity/xealth-afwebviewcontroller.git'
 
   # pod 'XealthSDK', :path => '../../xealth-sdk'
-  pod 'XealthSDK', :git => 'https://bitbucket.org/xealthcommunity/xealth-sdk.git', :commit => 'e147cb3d'
+  pod 'XealthSDK', :git => 'https://bitbucket.org/xealthcommunity/xealth-sdk.git', :commit => '0600a5e'
 end
