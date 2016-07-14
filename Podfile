@@ -7,5 +7,5 @@ target "Demo" do
 
   # pod 'XealthSDK', :path => '../../xealth-sdk'
 
-  pod 'XealthSDK', :git => 'https://bitbucket.org/xealthcommunity/xealth-sdk.git', :commit => 'c397ec9'
+  pod 'XealthSDK', :git => 'https://bitbucket.org/xealthcommunity/xealth-sdk.git', :commit => 'e0a082d0'
 end
